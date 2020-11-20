@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-require("./controllers/items/index").itemsRoute(app);
+require("./controllers/items/index").itemsRoutes(app);
 
 app.listen(port, () => {
   console.log(`Running on port ${port}...`);
