@@ -29,9 +29,10 @@ module.exports = () => {
           currency: "ARS",
         },
         location: "Buenos Aires",
-        condition: "New",
+        condition: "Nuevo",
         free_shipping: true,
       },
+      sold_quantity: 12,
     };
     res.json(productMock);
   };
