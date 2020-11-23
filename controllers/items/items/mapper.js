@@ -1,5 +1,5 @@
 module.exports = (results) => {
-  const mapper = (results) => {
+  const mapResponseToItemsObject = (results) => {
     return results.map((result) => {
       return {
         author: {
@@ -24,5 +24,5 @@ module.exports = (results) => {
       };
     });
   };
-  return mapper(results);
+  return mapResponseToItemsObject(results);
 };
